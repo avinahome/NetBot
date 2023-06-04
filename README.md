@@ -1,3 +1,4 @@
+---
 # 🎉🎉 Welcome to NetBot 🎉🎉
 
 NetBot is a space where we explore the magic of artificial intelligence, through the power of language and interactivity. Our goal is to make this place intuitive for a 6-year-old and advanced enough for a 70-year-old typewriter user to earn their first PhD!
@@ -5,6 +6,12 @@ NetBot is a space where we explore the magic of artificial intelligence, through
 ## 🗣️ Your Voice Matters!
 
 Here at NetBot, we believe in the power of shared knowledge. That's why in every directory, you'll find a `speaker.txt` file - a platform for you to contribute your ideas, ask questions, and ignite discussions about AI. Regardless of your expertise level, your thoughts are valuable and we encourage you to contribute!
+
+## Introducing `speaker.toe` for Improved AI Learning and Persistence
+
+In our ongoing effort to make NetBot more intuitive and effective, we're enhancing the role of `speaker.toe`. This special file will now be responsible for AI/ChatGPT prompt storage and persistence, making our AI models more responsive and adaptive.
+
+Whenever a refresh is needed, `speaker.toe` will learn specifically from `core\os\speaker.core`. This ensures that our AI is always up-to-date with the most recent and relevant information, making your interactions even more meaningful and personalized.
 
 ## 🌐 Navigating Through NetBot
 

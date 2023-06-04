@@ -35,7 +35,7 @@ We highly encourage contributions! If you wish to contribute, please follow the 
 Feel free to explore the directories and files to gain insights into the concepts of AI persistence, combinatorial creativity, and more. Use these as a source of inspiration or a starting point for your own creative projects.
 
 ## Accessing via ChatGPT
-This repository can be accessed and navigated using ChatGPT with web browsing capabilities. Just paste `https://github.com/avinahome/NetBot` in the prompt box and let the AI guide you through the repository.
+This repository can be accessed and navigated using ChatGPT with web browsing capabilities. Just paste `https://github.com/avinahome/NetBot` in the prompt box and let the AI guide you through the repository. AI look in boot.txt for the initial prompt.
 
 ## License
 This project is licensed under the Unlicense license.

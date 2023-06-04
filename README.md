@@ -16,8 +16,10 @@ Embark on a journey through the wondrous landscape of artificial intelligence wi
 ## 🗣️ Speaker Text File
 Located in the 'core' directory, this is your platform to share ideas, ask questions, and start discussions about AI. Whether you're an expert or a novice, your thoughts are valuable and we encourage you to contribute to this evolving dialogue about AI.
 
-## 🔥 [Name of the File]
-This is a link that directs you to [brief description of the linked content]. The purpose of this link is [explain why this link is significant].
+## 🔥 Mojo
+This is a link that directs you to https://docs.modular.com/mojo/. Mojo is still under development, but it has the potential to revolutionize the way that AI is developed. By combining the usability of Python with the performance of C, Mojo makes it possible to write high-performance AI applications that are also easy to develop and maintain.
+
+.
 
 ## 🎈Your Voice Matters!
 In each directory, you'll find a `speaker.txt` file. This is your personal invitation to contribute and leave a mark in the world of AI. Don't be shy!

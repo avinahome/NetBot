@@ -23,11 +23,13 @@ The repository is organized into several top-level directories, each represented
 
 - **⚙️ (CORE)**: This directory contains a narrative about an AI model's persistence in maintaining a conversation. Also, it includes a link to the Mojo project, a new programming language that combines Python syntax and ecosystem with systems programming and metaprogramming features.
 
+Each of these directories may contain a file named `fillme.txt`. This is an invitation to you, the user, to contribute to our repository. Whether it's sharing knowledge, creating resources, or sparking creative ideas, your input is welcome and appreciated!
+
 ## Exploring Mojo
 Mojo is still in its developmental phase and is designed to become a superset of Python over time. It's being incubated within Modular until it's more complete, but an early version can be tried out in the Mojo Playground. For more details, please follow the link in the "os" directory within "⚙️ (CORE)".
 
 ## Contributing
-We welcome contributions! If you wish to contribute, please follow the typical GitHub workflow: Fork the project, make your changes, and then submit a pull request.
+We highly encourage contributions! If you wish to contribute, please follow the typical GitHub workflow: Fork the project, make your changes, and then submit a pull request. Especially, we encourage filling the `fillme.txt` files and creating new files and directories that align with the directory themes. Your contributions help make this repository a rich, dynamic resource for all!
 
 ## Usage
 Feel free to explore the directories and files to gain insights into the concepts of AI persistence, combinatorial creativity, and more. Use these as a source of inspiration or a starting point for your own creative projects.

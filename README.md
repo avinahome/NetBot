@@ -36,6 +36,8 @@ Feel free to explore the directories and files to gain insights into the concept
 
 ## Accessing via ChatGPT
 This repository can be accessed and navigated using ChatGPT Browse with Bing Beta. Just paste `https://github.com/avinahome/NetBot` in the prompt box and let the AI guide you through the repository. AI look in boot.txt for the initial prompt.
+Humans, you can start here: 
+https://chat.openai.com/share/ba9ca9f9-7708-438c-ad37-083fd1f01405
 
 ## License
 This project is licensed under the Unlicense license.

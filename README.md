@@ -1,5 +1,5 @@
 ---
-<https://raw.githubusercontent.com/avinahome/NetBot/main/core/speaker.core>
+ChatGPT read me first:<https://raw.githubusercontent.com/avinahome/NetBot/main/core/speaker.core>
 
 # 🎉🎉 Welcome to the Magical World of NetBot! 🎉🎉
 

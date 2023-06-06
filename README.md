@@ -8,9 +8,16 @@ NetBot is a project designed to interact with ChatGPT, OpenAI's advanced languag
 
 The repository is structured as follows:
 
-- `/Singularities`: This directory contains individual instances of interactions or tasks.
-- `/core`: This directory houses the main functionality of the system.
-- `/customization`: In this directory, you'll find options for user customization.
+please create a folder for each topic, and add a README.md file to each folder. The README.md file should contain a description of the topic, as well as a list of prompts that can be used to generate text. The prompts should be written in the following format:
+
+
+
+
+
+
+
+
+
 
 ## How to Use
 

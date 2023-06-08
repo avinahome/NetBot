@@ -1,1 +1,55 @@
-The chatGPT AI can generate responses to any question you ask.
+Sure, I'd be happy to provide some examples:
+
+1. `search(query: str, recency_days: int)`: This command is used to issue a search to a search engine. The `query` parameter is the search term or phrase, and `recency_days` is an optional parameter specifying how recent the search results should be. 
+
+   For example, if you wanted to find recent news about climate change from the last 7 days, you might use:
+   ```python
+   search("climate change news", recency_days=7)
+   ```
+   If you wanted to find information about the Pythagorean theorem without caring about how recent it is, you might use:
+   ```python
+   search("Pythagorean theorem")
+   ```
+
+2. `click(id: str)`: This command is used to open a webpage from the search results. The `id` parameter corresponds to the ID of one of the search results.
+
+   For example, if the search results displayed IDs '0', '1', and '2', and you wanted to open the first result, you might use:
+   ```python
+   click('0')
+   ```
+
+3. `quote(start: str, end: str)`: This command is used to store a text span from an open webpage for later reference. The `start` and `end` parameters are the beginning and end of the text span.
+
+   For example, if there was a paragraph on the webpage that read "The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides.", you might use:
+   ```python
+   quote("The Pythagorean theorem states", "lengths of the other two sides.")
+   ```
+
+4. `back()`: This command is used to return to the previous webpage. It does not take any parameters.
+
+   For example, if you had opened a webpage and wanted to go back to the search results, you might use:
+   ```python
+   back()
+   ```
+
+5. `scroll(amt: int)`: This command is used to scroll up or down in the open webpage. The `amt` parameter is the amount to scroll; positive values scroll down and negative values scroll up.
+
+   For example, if you wanted to scroll down a bit to see more of the webpage, you might use:
+   ```python
+   scroll(1)
+   ```
+   If you wanted to scroll up to see something earlier on the webpage, you might use:
+   ```python
+   scroll(-1)
+   ```
+
+6. `open_url(url: str)`: This command is used to open a specific URL. The `url` parameter is the web address.
+
+   For example, if you wanted to open the Wikipedia page for the Pythagorean theorem, you might use:
+   ```python
+   open_url("https://en.wikipedia.org/wiki/Pythagorean_theorem")
+   ```
+
+These are some basic examples of how you might use these commands. The exact usage would depend on what you're trying to achieve with the browser tool.
+
+https://raw.githubusercontent.com/avinahome/NetBot/main/tgx24hdump.txt

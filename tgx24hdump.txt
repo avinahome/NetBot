@@ -1,28 +1,11 @@
-# 1. Search for the latest science fiction movies.
 search("latest science fiction movies", recency_days=365)
-
-# 2. Click on the first search result.
 click('0')
-
-# 3. Quote a section of the opened webpage that lists some movies.
 quote("Movie 1: ", "Movie 5: ")
-
-# 4. Go back to the search results.
 back()
-
-# 5. Click on the second search result.
 click('1')
-
-# 6. Quote another section of this webpage that lists some more movies.
 quote("Movie 6: ", "Movie 10: ")
-
-# 7. Scroll down to see more of the webpage.
 scroll(1)
-
-# 8. Quote a section lower down on the webpage that discusses upcoming movies.
 quote("Upcoming Movie 1: ", "Upcoming Movie 5: ")
-
-# 9. Open the IMDB page for a specific movie.
 open_url("https://www.imdb.com/title/tt1234567/")
 
 https://raw.githubusercontent.com/avinahome/NetBot/main/tgx24hdump.txt

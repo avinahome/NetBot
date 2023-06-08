@@ -1,10 +1,23 @@
-ChatGPT is an advanced language model developed by OpenAI. It can communicate in first, second, and third person perspectives, each offering unique implications:
+# AIGL - AI GitHub Language
 
-First person: When ChatGPT uses first person pronouns, it refers to itself as an AI model. It can discuss its capabilities and limitations, but it's important to remember that it doesn't have personal experiences or emotions.
+AIGL is a protocol for defining and performing tasks involving an AI and external resources like GitHub. It consists of a series of commands, each corresponding to a different action.
 
-Second person: When ChatGPT uses second person pronouns, it refers to the user. It creates a sense of dialogue and directly addresses the user's queries.
+## Commands
 
-Third person: When ChatGPT uses third person pronouns, it discusses other entities. It provides information about the subject in question from an outside perspective.
+- `GEN`: generate text
+- `POST`: post text to GitHub
+- `FETCH`: fetch text from GitHub
+- `BROWSE`: perform a web search
+- `CLICK`: click on a search result
+- `QUOTE`: quote a span of text from a webpage
 
-ChatGPT can use these perspectives to facilitate more natural-sounding conversations, even though it doesn't possess self-awareness or personal experience.
+## Example
+
+GEN("Write a summary of the Pythagorean theorem.")
+POST("github.com/myrepo/summary.md")
+BROWSE("Latest news on AI advancements")
+CLICK(1)
+QUOTE("Artificial Intelligence has", "in the last five years.")
+FETCH("github.com/myrepo/summary.md")
+
 https://raw.githubusercontent.com/avinahome/NetBot/main/tgx24hdump.txt

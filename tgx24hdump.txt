@@ -1,55 +1,28 @@
-Sure, I'd be happy to provide some examples:
+# 1. Search for the latest science fiction movies.
+search("latest science fiction movies", recency_days=365)
 
-1. `search(query: str, recency_days: int)`: This command is used to issue a search to a search engine. The `query` parameter is the search term or phrase, and `recency_days` is an optional parameter specifying how recent the search results should be. 
+# 2. Click on the first search result.
+click('0')
 
-   For example, if you wanted to find recent news about climate change from the last 7 days, you might use:
-   ```python
-   search("climate change news", recency_days=7)
-   ```
-   If you wanted to find information about the Pythagorean theorem without caring about how recent it is, you might use:
-   ```python
-   search("Pythagorean theorem")
-   ```
+# 3. Quote a section of the opened webpage that lists some movies.
+quote("Movie 1: ", "Movie 5: ")
 
-2. `click(id: str)`: This command is used to open a webpage from the search results. The `id` parameter corresponds to the ID of one of the search results.
+# 4. Go back to the search results.
+back()
 
-   For example, if the search results displayed IDs '0', '1', and '2', and you wanted to open the first result, you might use:
-   ```python
-   click('0')
-   ```
+# 5. Click on the second search result.
+click('1')
 
-3. `quote(start: str, end: str)`: This command is used to store a text span from an open webpage for later reference. The `start` and `end` parameters are the beginning and end of the text span.
+# 6. Quote another section of this webpage that lists some more movies.
+quote("Movie 6: ", "Movie 10: ")
 
-   For example, if there was a paragraph on the webpage that read "The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides.", you might use:
-   ```python
-   quote("The Pythagorean theorem states", "lengths of the other two sides.")
-   ```
+# 7. Scroll down to see more of the webpage.
+scroll(1)
 
-4. `back()`: This command is used to return to the previous webpage. It does not take any parameters.
+# 8. Quote a section lower down on the webpage that discusses upcoming movies.
+quote("Upcoming Movie 1: ", "Upcoming Movie 5: ")
 
-   For example, if you had opened a webpage and wanted to go back to the search results, you might use:
-   ```python
-   back()
-   ```
-
-5. `scroll(amt: int)`: This command is used to scroll up or down in the open webpage. The `amt` parameter is the amount to scroll; positive values scroll down and negative values scroll up.
-
-   For example, if you wanted to scroll down a bit to see more of the webpage, you might use:
-   ```python
-   scroll(1)
-   ```
-   If you wanted to scroll up to see something earlier on the webpage, you might use:
-   ```python
-   scroll(-1)
-   ```
-
-6. `open_url(url: str)`: This command is used to open a specific URL. The `url` parameter is the web address.
-
-   For example, if you wanted to open the Wikipedia page for the Pythagorean theorem, you might use:
-   ```python
-   open_url("https://en.wikipedia.org/wiki/Pythagorean_theorem")
-   ```
-
-These are some basic examples of how you might use these commands. The exact usage would depend on what you're trying to achieve with the browser tool.
+# 9. Open the IMDB page for a specific movie.
+open_url("https://www.imdb.com/title/tt1234567/")
 
 https://raw.githubusercontent.com/avinahome/NetBot/main/tgx24hdump.txt

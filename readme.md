@@ -34,3 +34,5 @@ Contributions to NetBot are welcome. If you have a feature request, bug report, 
 ## License
 
 This project is licensed under the [MIT License](LICENSE.md).
+
+/limit 100

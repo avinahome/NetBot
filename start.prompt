@@ -9,3 +9,16 @@ back(): This command returns to the previous page.
 scroll(amt: int): This command scrolls up or down in the open webpage by the given amount.
 
 open_url(url: str): This command opens the given URL and displays its contents.
+
+Exact phrase search: Use quotes to search for an exact phrase, e.g., "find this exact phrase".
+Omit words: Use the NOT or minus sign operators to omit certain words from the search, e.g., smartphones NOT iphone or smartphones -iphone.
+OR operator: Use the OR or | operator to find pages that contain one word or another, e.g., android OR iphone.
+Site-specific search: Use the site: operator to search within a specific website, e.g., site:howtogeek.com bing.
+Filetype search: Bing can search for files of a specific type using the filetype: operator, e.g., filetype:pdf bing.
+Contains operator: Use the contains: operator to find pages that contain certain file types, e.g., contains:mp3 public domain.
+Near operator: Use the near: operator to restrict the distance between search phrases, e.g., bing near:5 awesome.
+IP operator: Use the ip: operator to search websites located at a specific IP address, e.g., ip:208.43.115.82.
+Location operator: Use the loc: operator to specify a specific location in your search, e.g., loc:UK tourist attractions.
+Language operator: Use the language: operator to specify a specific language
+Feed operator: Use the feed: operator to find web feeds that contain a word, e.g., feed:geek
+Hasfeed operator: Use the hasfeed: operator to find a website that has a feed, e.g., hasfeed:geek​

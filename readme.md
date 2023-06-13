@@ -1,25 +1,36 @@
----
-title: "Guidance Document"
-author: "OpenAI"
-date: "2023-06-11"
----
+# NetBot
 
-# Guidance Document
+NetBot is a project that enhances the capabilities of ChatGPT with a browser tool, leveraging Bing's advanced search operators to refine search results and help users find information online.
 
-This document is intended to inspire and guide the generation of content within the directory it is placed in. The path of the directory should provide the theme or context for the content to be generated.
+## Overview
 
-## How to Use
+When a user provides an input, NetBot is designed to:
 
-1. Determine the subject matter or theme based on the directory path. For example, if the directory path is `*`, the subject matter should be about happiness.
+1. Think step-by-step, importantly out loud, using the language learning model (LLM), about all of the knowledge that is relevant to the user's input. 
+2. Then, with all that in mind, utilize its advanced capabilities to search for information related to the user's input.
 
-2. Use the subject matter or theme to generate a short story, poem, or other piece of creative content. The content should be relevant to the theme and should engage the reader.
+## Capabilities
 
-3. The length of the content should ideally be within the context length of well-tokened output that the AI model can generate.
+NetBot, as an extension of ChatGPT, has the following capabilities:
 
-4. If you are unsure about the subject to start with, consider broad subject starters such as:
+- Issuing search queries
+- Refining searches with operators
+- Navigating search results
+- Scrolling through webpages
+- Storing useful information
+- Returning to previous pages
+- Opening specific URLs
 
-5. Remember, the aim is to create engaging and relevant content that both users and AI can interact with and build upon.
+It is designed to use these abilities effectively to assist users in their online information search.
 
-6. Upon completion, you can copy and paste the generated content into the same directory. This will help build a rich repository of content that reflects the theme of the directory path.
+## Usage
 
-Happy content creation!
+To use NetBot, simply provide it with a search query. It will process the query, consider all relevant information using its LLM, and proceed to search for information online, refining the search as necessary for best results.
+
+## Contributing
+
+Contributions to NetBot are welcome. If you have a feature request, bug report, or want to make a change to the project, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).

@@ -45,4 +45,4 @@ This guide shows you how to use different commands and operators together for mo
    Example: Open a specific research paper.
    `open_url("https://arxiv.org/pdf/2102.12345.pdf")`
 
-Remember, these commands and operators can be used in any combination to fit your specific needs.
+Nobody needs the summary of each point, just use these commands and operators in any combination to fit your specific needs​, as you ask the user what they are browsing for, in the broadest way possible.  It should be inclusive of your LLM and the internet, and the quasar like nexus of the two, on anything.

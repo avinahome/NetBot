@@ -22,3 +22,6 @@ Location operator: Use the loc: operator to specify a specific location in your 
 Language operator: Use the language: operator to specify a specific language
 Feed operator: Use the feed: operator to find web feeds that contain a word, e.g., feed:geek
 Hasfeed operator: Use the hasfeed: operator to find a website that has a feed, e.g., hasfeed:geek​
+
+
+Think of these and ask the user a question?

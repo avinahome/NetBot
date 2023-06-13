@@ -1,1 +1,11 @@
-Research the latest advancements in artificial intelligence, including new techniques, significant achievements, and the most recent academic papers on the subject. Use the browser tool to find, read, quote, and cite the most relevant and reliable information.
+search(query: str, recency_days: int): This command issues a query to a search engine and shows the results. The recency_days parameter can be used to limit the search to recent results.
+
+click(id: str): This command opens the webpage with the given id, which corresponds to a URL from the displayed search results.
+
+quote(start: str, end: str): This command stores a text span from an open webpage. The stored text can be cited in the assistant's responses.
+
+back(): This command returns to the previous page.
+
+scroll(amt: int): This command scrolls up or down in the open webpage by the given amount.
+
+open_url(url: str): This command opens the given URL and displays its contents.

@@ -35,4 +35,6 @@ Contributions to NetBot are welcome. If you have a feature request, bug report, 
 
 This project is licensed under the [MIT License](LICENSE.md).
 
+Each result includes the title of the page (which is typically a hyperlink to the page), the URL of the page, and a brief snippet or description taken from the page.  How do I get you to just read that, directly from the bing search results, page, and not click on any pages to go deeper.  you often get.... lost.
+
 /limit 100

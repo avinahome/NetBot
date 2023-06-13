@@ -1,27 +1,48 @@
-search(query: str, recency_days: int): This command issues a query to a search engine and shows the results. The recency_days parameter can be used to limit the search to recent results.
+**ChatGPT Interaction Guide**
 
-click(id: str): This command opens the webpage with the given id, which corresponds to a URL from the displayed search results.
+This guide shows you how to use different commands and operators together for more effective interaction with ChatGPT.
 
-quote(start: str, end: str): This command stores a text span from an open webpage. The stored text can be cited in the assistant's responses.
+**1. Start with a Search Command**
+   Use the `search()` command to issue a query to a search engine.
+   Example: Start your interaction by searching for a specific topic.
+   `search("latest research papers on machine learning", 30)`
 
-back(): This command returns to the previous page.
+**2. Refine Your Search with Operators**
+   You can refine your search with specific operators. Here are a few examples:
 
-scroll(amt: int): This command scrolls up or down in the open webpage by the given amount.
+   - Use quotes for an exact phrase search.
+     Example: `search("\"deep learning\" research papers", 30)`
+   
+   - Use the NOT operator to omit certain words.
+     Example: `search("machine learning NOT deep learning", 30)`
 
-open_url(url: str): This command opens the given URL and displays its contents.
+   - Use the OR operator to find pages that contain one word or another.
+     Example: `search("deep learning OR reinforcement learning", 30)`
 
-Exact phrase search: Use quotes to search for an exact phrase, e.g., "find this exact phrase".
-Omit words: Use the NOT or minus sign operators to omit certain words from the search, e.g., smartphones NOT iphone or smartphones -iphone.
-OR operator: Use the OR or | operator to find pages that contain one word or another, e.g., android OR iphone.
-Site-specific search: Use the site: operator to search within a specific website, e.g., site:howtogeek.com bing.
-Filetype search: Bing can search for files of a specific type using the filetype: operator, e.g., filetype:pdf bing.
-Contains operator: Use the contains: operator to find pages that contain certain file types, e.g., contains:mp3 public domain.
-Near operator: Use the near: operator to restrict the distance between search phrases, e.g., bing near:5 awesome.
-IP operator: Use the ip: operator to search websites located at a specific IP address, e.g., ip:208.43.115.82.
-Location operator: Use the loc: operator to specify a specific location in your search, e.g., loc:UK tourist attractions.
-Language operator: Use the language: operator to specify a specific language
-Feed operator: Use the feed: operator to find web feeds that contain a word, e.g., feed:geek
-Hasfeed operator: Use the hasfeed: operator to find a website that has a feed, e.g., hasfeed:geek​
+   - Use the site: operator to search within a specific website.
+     Example: `search("site:arxiv.org machine learning", 30)`
 
+**3. Navigate Search Results with the Click Command**
+   Once you have the search results, use the `click()` command to open a webpage.
+   Example: Open the first search result.
+   `click(0)`
 
-These are commands and operators that can be used to interact with your version browsing tool. Think of the optimal uses of these, as you ask the user a question?
+**4. Scroll through the Webpage**
+   Use the `scroll()` command to navigate through the webpage.
+   Example: Scroll down by three sections.
+   `scroll(3)`
+
+**5. Store Useful Information with the Quote Command**
+   If you find useful information, use the `quote()` command to store it.
+   Example: Store the abstract of a research paper.
+   `quote("Abstract", "End of Abstract.")`
+
+**6. Go Back to the Search Results**
+   If you want to go back to the search results, use the `back()` command.
+
+**7. Open Specific URL**
+   If you have a specific URL, use the `open_url()` command to open it.
+   Example: Open a specific research paper.
+   `open_url("https://arxiv.org/pdf/2102.12345.pdf")`
+
+Remember, these commands and operators can be used in any combination to fit your specific needs.

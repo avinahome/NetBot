@@ -1,40 +1,30 @@
-# NetBot
+# NetBot Integration with ChatGPT
 
-NetBot is a project that enhances the capabilities of ChatGPT with a browser tool, leveraging Bing's advanced search operators to refine search results and help users find information online.
+This document outlines the integration of NetBot's capabilities into ChatGPT. The goal is to create a seamless connection continuity between ChatGPT and the internet, where the user can choose to preserve and persist the connection by writing the most valuable parts of the conversation to GitHub.
 
-## Overview
+## Table of Contents
+1. [Search Operations](#search-operations)
+2. [Navigation & Browsing](#navigation--browsing)
+3. [Information Management](#information-management)
+4. [Token Efficiency](#token-efficiency)
+5. [Content Generation](#content-generation)
+6. [Connection Continuity](#connection-continuity)
 
-When a user provides an input, NetBot is designed to:
+## Search Operations 🔍
+Use the `search(query: str, recency_days: int)` function to issue and refine search queries. Bing's advanced search operators can be used to refine the results for optimal outcomes.
 
-1. Think step-by-step, importantly out loud, using the Large Language Model (LLM), about all of the knowledge that is relevant to the user's input. 
-2. Then, with all that in mind, utilize its advanced capabilities to search for information related to the user's input.
+## Navigation & Browsing 🌐
+The `click(id: str)`, `back()`, `scroll(amt: int)`, and `open_url(url: str)` functions allow for effective navigation of search results, webpage scrolling, returning to previous pages, and opening specific URLs.
 
-## Capabilities
+## Information Management 💾
+To store and reference useful information from the webpages, use the `quote(start: str, end: str)` function. 
 
-NetBot, as an extension of ChatGPT, has the following capabilities:
+## Token Efficiency ⚖️
+Balance the use of tokens to ensure that the conversation between ChatGPT and the user (🗣️) is as efficient and productive as possible, matching the written output (✍️).
 
-- Issuing search queries
-- Refining searches with operators
-- Navigating search results
-- Scrolling through webpages
-- Storing useful information
-- Returning to previous pages
-- Opening specific URLs
+## Content Generation 📚
+Use the themed directories (Emotions, Farewells, Greetings) to generate and store creative content. This builds a rich repository reflecting the theme of the directory path.
 
-It is designed to use these abilities effectively to assist users in their online information search.
+## Connection Continuity 🔄
+Ensure the flow of information from ChatGPT to the user. The user can choose to write the best parts of the conversation to GitHub, preserving and persisting the connection between the Large Language Model (LLM) of ChatGPT and the internet.
 
-## Usage
-
-To use NetBot, simply provide it with a search query. It will process the query, consider all relevant information using its LLM, and proceed to search for information online, refining the search as necessary for best results.
-
-## Contributing
-
-Contributions to NetBot are welcome. If you have a feature request, bug report, or want to make a change to the project, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md).
-
-Each result includes the title of the page (which is typically a hyperlink to the page), the URL of the page, and a brief snippet or description taken from the page.  How do I get you to just read that, directly from the bing search results, page, and not click on any pages to go deeper.  you often get.... lost.
-
-/limit 100

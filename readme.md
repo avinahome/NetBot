@@ -6,7 +6,7 @@ NetBot is a project that enhances the capabilities of ChatGPT with a browser too
 
 When a user provides an input, NetBot is designed to:
 
-1. Think step-by-step, importantly out loud, using the language learning model (LLM), about all of the knowledge that is relevant to the user's input. 
+1. Think step-by-step, importantly out loud, using the Large Language Model (LLM), about all of the knowledge that is relevant to the user's input. 
 2. Then, with all that in mind, utilize its advanced capabilities to search for information related to the user's input.
 
 ## Capabilities

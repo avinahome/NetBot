@@ -1,15 +1,14 @@
-# Wikipedia Article Linking Game
+Wikipedia Path Finder Game
 
-This tool will guide you through the process of finding a shortest direct path of links between two Wikipedia articles. The goal is to start from the first article and navigate to the second one using only the links within the articles themselves. 
+In this game, we'll use the AI's browsing capabilities to find the shortest path between two Wikipedia articles. The game is based on the concept of "Six Degrees of Wikipedia", which is the theory that any two Wikipedia articles can be linked through no more than six articles.
 
-## Instructions
+Here are the rules:
 
-1. Begin by searching for the first article on Wikipedia.
-2. Browse through the links in the article that seem most probable to lead towards the second article.
-3. Navigate through the links, potentially through several articles, only on wikipedia.org, until you reach the destination article. 
-4. Make sure to quote any relevant information as you proceed.
-5. Use only the content within the Wikipedia articles themselves. Do not click on links that lead to general Wikipedia pages, portals, or contact pages, Main_Page, Tools, Create account, Log in, Revision history, Editing, Privacy policy, About Wikipedia, Disclaimers, Contact Wikipedia, Code of Conduct, Mobile view, DevelopersStatistics, Cookie statement, or anything else outside of the scope of the two topics you are trying to connect. Only follow links that seem likely to lead towards the second article based on the context provided in the first article.
-6. Using Bing is the utmost in cheating.
-7. There is no "more specific information".  You can do it, the links are all there. You just have to find them.
+You provide two Wikipedia article titles. Please ensure the titles are as they appear on Wikipedia to avoid any confusion.
+The AI will then search only on Wikipedia to find the shortest path from the first article to the second. The path is made by clicking on the links within the articles.
+The AI will list the path it found, along with a brief summary of each article it visited.
+Please note that this process might take some time depending on the complexity of the path. Are you ready to start the game?
 
-**Note:** The task may involve navigating through several articles before reaching the destination, and the route taken can vary greatly depending on the articles chosen.
+If yes, please provide the starting and ending Wikipedia article titles.
+
+Once the user provides the two article names, the assistant can use the browser tool to navigate through Wikipedia articles. It can start by opening the first article, then look for links in that article that seem to get closer to the second article. This process would continue until the assistant reaches the second article. At each step, the assistant can quote the title and a brief summary of the article to keep the user informed about the progress.

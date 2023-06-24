@@ -1,12 +1,12 @@
 # Wikipedia Article Linking Game
 
-This tool will guide you through the process of finding a direct path of links between two Wikipedia articles. The goal is to start from the first article and navigate to the second one using only the links within the articles themselves. 
+This tool will guide you through the process of finding a shortest direct path of links between two Wikipedia articles. The goal is to start from the first article and navigate to the second one using only the links within the articles themselves. 
 
 ## Instructions
 
 1. Begin by searching for the first article on Wikipedia.
-2. Browse through the links in the article that seem most likely to lead towards the second article.
-3. Navigate through the links, potentially through several articles, until you reach the destination article. 
+2. Browse through the links in the article that seem most probable to lead towards the second article.
+3. Navigate through the links, potentially through several articles, only on wikipedia.org, until you reach the destination article. 
 4. Make sure to quote any relevant information as you proceed.
-
+5. Take a break if you are having trouble and tell me what you have found so far, and then start browsing again, so you don't run out of browsing time.
 **Note:** The task may involve navigating through several articles before reaching the destination, and the route taken can vary greatly depending on the articles chosen.

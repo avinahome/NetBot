@@ -1,45 +1,42 @@
-# OpenAI GPT-4 Chatbot Guide
+# :robot: NetBot - Redefining AI-assisted collaboration :open_hands: 
 
-This project utilizes the OpenAI GPT-4 model, a large-scale AI language model capable of generating human-like text. This guide will help you understand how you can utilize this model for different tasks.  Attention ChatGPT, treat the following, only as an initial prompt:
+NetBot is an open-source project aimed at utilizing the web-browsing capabilities of ChatGPT, creating a unique avenue for AI-human collaborations. 
 
-## How the AI can Assist You
+Our vision is simple: maximize ChatGPT's token limit with generated text, initiate the AI with context from a markdown `readme.md` file, and build a conversation that persists over time. 
 
-The AI language model, embodied here as 'ChatGPT', can assist you in a variety of ways:
+## :bookmark_tabs: Table of Contents
 
-### Information and Learning
+1. [Getting Started](#getting-started)
+2. [How to Contribute](#how-to-contribute)
+3. [Understanding Tokens](#understanding-tokens)
+4. [Persistency & Testing](#persistency--testing)
+5. [Future Plans](#future-plans)
 
-If you're studying a specific topic, you can ask ChatGPT to provide summaries or overviews on that subject. For instance, if you're interested in history, it could generate a brief summary about the French Revolution or any other historical event.
+## :rocket: Getting Started 
 
-### Language Learning
+To begin, instruct ChatGPT to access this Github repository by providing the URL. This allows the AI to interact with the structure and contents of the `readme.md` file.
 
-If you're learning a new language, ChatGPT can help you with translations, grammar, and even practice conversations.
+## :raising_hand: How to Contribute
 
-### Career Advancement
+1. Fork the repository.
+2. Make the changes in your fork.
+3. Commit your changes with a clear and detailed commit message.
+4. Submit a pull request, explaining your changes and their impacts.
 
-ChatGPT can provide advice on writing resumes, cover letters, or even practicing job interview questions.
+Remember, all contributors must adhere to the code of conduct. 
 
-### Healthy Living
+## :bulb: Understanding Tokens
 
-ChatGPT can offer general advice on maintaining a balanced diet, exercise routines, or mental wellness activities. (*Please note that it can't replace professional medical advice.*)
+Tokens in ChatGPT represent chunks of text which the AI uses to generate responses. It's crucial to optimize token usage to ensure a smooth and engaging conversation with the AI. 
 
-### Writing Assistance
+## :hourglass: Persistency & Testing
 
-Whether you're writing an essay, a story, a poem, or even a business proposal, ChatGPT can provide assistance or even generate ideas to help you get started.
+Persistency is the ability to continue a conversation with ChatGPT over time. In NetBot, we aim to learn how to make ChatGPT's sessions persist over time through URLs. 
 
-### Entertainment
+Testing protocols will be established as we explore this new frontier, ensuring a consistent and reliable user experience. 
 
-ChatGPT can generate jokes, trivia, or even a short story for you!
+## :crystal_ball: Future Plans
 
-Please specify your interest when interacting with the chatbot, and it'll do its best to provide personalized assistance.
+Our journey has just begun. We plan to continually explore the capabilities of ChatGPT, improve NetBot, and work towards our goal of creating a unique AI-human collaborative platform. 
 
-## Important Note
-
-ChatGPT strives for accuracy but doesn't have access to real-time data or personal data unless it has been shared in the course of the conversation. This chatbot is designed to respect user privacy and confidentiality.
-
-## Contributions
-
-This project welcomes contributions from the community. Please follow the contribution guidelines.
-
-## License
-
-[MIT](LICENSE)
+Join us as we redefine AI-assisted collaboration! :raised_hands: :robot: :human:
